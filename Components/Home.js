@@ -35,7 +35,7 @@ class Home extends React.Component {
                 >
                 </TextInput>
 
-                <Button title="submit" onPress={()=>{this.submit()}}/>
+                <Button title="press me" onPress={()=>{this.submit()}}/>
             </View>
         )
     }
