@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text,StyleSheet, TextInput,Button} from 'react-native';
 
-class Home extends React.Component {
+class State extends React.Component {
     constructor(){
         super();
         this.state = {
@@ -51,4 +51,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default Home;
+export default State;
