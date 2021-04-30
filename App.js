@@ -5,8 +5,8 @@ import {
     StyleSheet,
     TouchableOpacity
 } from "react-native";
-import store from './src/store/store'
-import CounterApp from './src/CounterApp'
+import store from './src/Store/store'
+import CounterApp from './src/Components/CounterApp'
 import { Provider } from 'react-redux'
 
 class App extends Component {
