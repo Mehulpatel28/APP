@@ -3,18 +3,20 @@ import {
     View,
     Text,
     StyleSheet,
-    TouchableOpacity
+    TouchableOpacity,
+    ScrollView
 } from "react-native";
-import store from './src/Store/store'
-import CounterApp from './src/Components/CounterApp'
+import store from './src/Redux/Store/store'
 import { Provider } from 'react-redux'
-
+import CounterApp from './src/Screens/CounterApp';
+import APIApp from './src/Screens/APIApp';
 class App extends Component {
 
     render() {
         return (
             <Provider store={store}>
-                <CounterApp />
+                    <CounterApp/>
+                     <APIApp/>
             </Provider>
         );
     }
